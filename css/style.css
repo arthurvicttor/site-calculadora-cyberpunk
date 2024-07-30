@@ -1,0 +1,64 @@
+body{
+    background: url(../assets/owl-art-4k-wallpaper-uhdpaper.com-331@0@k.jpg);
+    background-size: cover;
+    font-family: "Press Start 2P", system-ui;
+   
+}
+
+li{
+    list-style: none;
+}
+
+h1{
+    margin-top: 7rem;
+    text-align: center;
+    color: #464465;
+    text-shadow: 2px 2px 10px #E958D5;
+}
+
+#calculadora{
+    width: 300px;
+    height: 300px;
+    margin: 10vh auto;
+    padding: 2px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+}
+
+.input-valor{
+	margin: 8px auto;
+	width: 95%;
+	height: 30px;
+	font-size: 16px;
+	overflow: hidden;
+	text-align: left;
+	color: #48484D;
+	padding: 4px;
+	background-color:#fff;
+	box-shadow: inset -1px -1px 4px 1px #eee;
+    border-radius: 10px;
+}
+.key li{
+	width:50px;
+	height:30px;
+	border-radius:3px;
+	color:#fff;
+	background-color:#222035;
+	cursor:pointer;
+	float:left;
+	margin: 0px -3px 5px 8px;
+	line-height: 30px;
+	text-align: center;
+	box-shadow: 0px 3px 1px 0px #444651;
+}
+.key li:hover{
+	background-color: #BFAB5A;
+	color: #6C73FA;
+	transition:0.2s;
+}
+.key li:active{
+	box-shadow: 0px 1px 1px 0px #444651;
+}
+.resultado{
+	width: 93.4% !important;
+}
